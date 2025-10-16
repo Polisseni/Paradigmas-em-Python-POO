@@ -35,4 +35,4 @@ class Conta:
             return ("\033[34mTransferência Realizada!\033[m")
 
     def gerar_saldo(self):
-        print(f'número: {self.numero}\nsaldo: R${self.saldo}')
+        print(f'número: {self.numero}\nsaldo: R${self.saldo:10.2f}')
